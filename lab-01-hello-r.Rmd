@@ -4,8 +4,8 @@ author: "Ben Waggener"
 date: "01/17/2025"
 output: 
   html_document: 
-    fig_height: 4
-    fig_width: 9
+    fig_height: 7
+    fig_width: 10
 ---
 
 ## Load packages and data
