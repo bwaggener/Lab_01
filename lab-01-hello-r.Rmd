@@ -64,6 +64,8 @@ star_data <- datasaurus_dozen %>%
 I'm some filler text, you should replace me with more meaningful text...
 
 ```{r cor-star}
+star_data %>%
+  summarize(r = cor(x, y))
 
 ```
 Add your explanation here—what did you notice?
