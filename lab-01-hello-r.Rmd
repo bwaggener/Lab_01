@@ -33,7 +33,7 @@ ggplot(data = dino_data, mapping = aes(x = x, y = y)) +
   geom_point()
 ```
 
-Next, let's calculate the correlation between `x` and `y` in this dataset:
+Here is the correlation between `x` and `y` in this dataset:
 
 ```{r cor-dino}
 dino_data %>%
