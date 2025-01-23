@@ -19,8 +19,14 @@ library(datasauRus)
 
 ### Exercise 1
 
-The datasaurus_dozen file has 1846 rows and 3 columns (variables?)
+The datasaurus_dozen file has 1846 rows and 3 columns
 
+``` {r frequency-table}
+datasaurus_dozen %>%
+  count(dataset) %>%
+  print(13)
+
+```
 ### Exercise 2
 
 Here is a plot for the dino data from the datasaurus_dozen dataset

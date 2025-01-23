@@ -366,8 +366,30 @@ library(datasauRus)</code></pre>
 <h2>Exercises</h2>
 <div id="exercise-1" class="section level3">
 <h3>Exercise 1</h3>
-<p>The datasaurus_dozen file has 1846 rows and 3 columns
-(variables?)</p>
+<p>The datasaurus_dozen file has 1846 rows and 3 columns</p>
+<pre class="r"><code>datasaurus_dozen %&gt;%
+  count(dataset) %&gt;%
+  print(13)</code></pre>
+<pre><code>## # A tibble:
+## #   13 × 2
+##    dataset   
+##    &lt;chr&gt;     
+##  1 away      
+##  2 bullseye  
+##  3 circle    
+##  4 dino      
+##  5 dots      
+##  6 h_lines   
+##  7 high_lines
+##  8 slant_down
+##  9 slant_up  
+## 10 star      
+## 11 v_lines   
+## 12 wide_lines
+## 13 x_shape   
+## # ℹ 1 more
+## #   variable:
+## #   n &lt;int&gt;</code></pre>
 </div>
 <div id="exercise-2" class="section level3">
 <h3>Exercise 2</h3>
